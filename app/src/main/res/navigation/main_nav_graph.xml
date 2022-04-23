@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_nav_graph"
+    app:startDestination="@id/breaking_news">
+
+    <fragment
+        android:id="@+id/breaking_news"
+        android:name="com.example.newsapp.fragments.Breaking_news"
+        android:label="Breaking_news" >
+        <action
+            android:id="@+id/action_breaking_news_to_article_news"
+            app:destination="@id/article_news"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"/>
+    </fragment>
+    <fragment
+        android:id="@+id/saved_news"
+        android:name="com.example.newsapp.fragments.Saved_news"
+        android:label="Saved_news" >
+        <action
+            android:id="@+id/action_saved_news_to_article_news"
+            app:destination="@id/article_news"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/search_news"
+        android:name="com.example.newsapp.fragments.Search_news"
+        android:label="Search_news" >
+        <action
+            android:id="@+id/action_search_news_to_article_news"
+            app:destination="@id/article_news"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"/>
+    </fragment>
+    <fragment
+        android:id="@+id/article_news"
+        android:name="com.example.newsapp.fragments.Article_news"
+        android:label="Article_news" >
+        <argument
+            android:name="Article"
+            app:argType="com.example.newsapp.RETRO.Article" />
+    </fragment>
+</navigation>
