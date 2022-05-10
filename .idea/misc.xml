@@ -3,6 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/NewsApp/app/src/main/res/drawable-v24/ic_all_news.xml" value="0.202" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/NewsApp/app/src/main/res/drawable-v24/ic_breaking_news.xml" value="0.202" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/NewsApp/app/src/main/res/drawable-v24/ic_favorite.xml" value="0.202" />
         <entry key="..\:/Users/DELL/AndroidStudioProjects/NewsApp/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.227" />
         <entry key="..\:/Users/DELL/AndroidStudioProjects/NewsApp/app/src/main/res/drawable/border1.xml" value="0.124" />
         <entry key="..\:/Users/DELL/AndroidStudioProjects/NewsApp/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
